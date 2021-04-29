@@ -16,7 +16,7 @@ st.markdown("_Historical simulations to optimize investment decisions surroundin
 def getData():
 
     url = 'https://raw.githubusercontent.com/BenDavis71/mortgageOpportunityCost/master/shillerData.csv'
-    df = pd.read_csv('url')
+    df = pd.read_csv(url)
 
     return df 
 
